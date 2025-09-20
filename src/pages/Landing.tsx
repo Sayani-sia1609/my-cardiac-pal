@@ -43,7 +43,7 @@ export const Landing = () => {
             <div className="flex items-center space-x-2">
               <Heart className="h-8 w-8 text-primary heart-beat" fill="currentColor" />
               <span className="text-xl font-bold bg-gradient-healing bg-clip-text text-transparent">
-                HeartClutch
+                StrokeGuard
               </span>
             </div>
             
@@ -72,7 +72,7 @@ export const Landing = () => {
                   </span>
                 </h1>
                 <p className="text-xl text-muted-foreground leading-relaxed">
-                  AI-powered cardiac health monitoring that connects your wearable data 
+                  AI-powered stroke monitoring that connects your wearable data 
                   with intelligent insights, emergency alerts, and family support.
                 </p>
               </div>
@@ -124,10 +124,10 @@ export const Landing = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-4xl font-bold text-foreground">
-              Comprehensive Cardiac Care
+              Comprehensive Stroke Prevention
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Everything you need to monitor, understand, and improve your heart health,
+              Everything you need to monitor, understand, and prevent stroke risk,
               all in one intelligent platform.
             </p>
           </div>
@@ -156,10 +156,10 @@ export const Landing = () => {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-healing">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h2 className="text-4xl font-bold text-primary-foreground">
-            Ready to take control of your heart health?
+            Ready to take control of your stroke prevention?
           </h2>
           <p className="text-xl text-primary-foreground/90">
-            Join thousands of users who trust HeartClutch for their cardiac monitoring needs.
+            Join thousands of users who trust StrokeGuard for their stroke monitoring needs.
           </p>
           <Link to="/signup">
             <Button variant="outline" size="hero" className="bg-white text-primary hover:bg-white/90">
@@ -175,10 +175,10 @@ export const Landing = () => {
         <div className="max-w-7xl mx-auto text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">
             <Heart className="h-6 w-6 text-primary" fill="currentColor" />
-            <span className="text-lg font-bold text-foreground">HeartClutch</span>
+            <span className="text-lg font-bold text-foreground">StrokeGuard</span>
           </div>
           <p className="text-muted-foreground">
-            © 2025 HeartClutch. Your heart health, our priority.
+            © 2025 StrokeGuard. Your stroke prevention, our priority.
           </p>
         </div>
       </footer>

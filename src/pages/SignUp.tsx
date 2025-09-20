@@ -45,7 +45,7 @@ export const SignUp = () => {
   const wearableOptions = [
     { name: "Google Fit", icon: "🔗", color: "text-blue-600" },
     { name: "Fitbit", icon: "⌚", color: "text-green-600" },
-    { name: "Apple Watch", icon: "⌚", color: "text-gray-800" },
+    { name: "Apple Health", icon: "📱", color: "text-gray-800" },
   ];
 
   return (
@@ -56,7 +56,7 @@ export const SignUp = () => {
           <Link to="/" className="flex items-center space-x-2">
             <Heart className="h-8 w-8 text-primary heart-beat" fill="currentColor" />
             <span className="text-xl font-bold bg-gradient-healing bg-clip-text text-transparent">
-              HeartClutch
+              StrokeGuard
             </span>
           </Link>
           <Link to="/signin">
@@ -253,9 +253,11 @@ export const SignUp = () => {
                     ))}
                   </div>
 
-                  <Button variant="outline" className="w-full">
-                    Skip for now (you can connect later)
-                  </Button>
+                  <Link to="/dashboard">
+                    <Button variant="outline" className="w-full">
+                      Skip for now (you can connect later)
+                    </Button>
+                  </Link>
                 </div>
               </div>
             )}

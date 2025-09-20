@@ -38,7 +38,7 @@ export const Navbar = () => {
               <div className="absolute inset-0 bg-primary/20 rounded-full pulse-ring"></div>
             </div>
             <span className="text-xl font-bold bg-gradient-healing bg-clip-text text-transparent">
-              HeartClutch
+              StrokeGuard
             </span>
           </Link>
 
